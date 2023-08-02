@@ -3,7 +3,7 @@ int main(){
     int x1,y1,n,i,j,k,l,d,x2,y2;
     int data[50][50]={};
     printf("\n입력 ---------------------------------\n\n");
-    scanf("%d %d %d",&x1,&y1,&n);
+    scanf("%d %d %d",&y1,&x1,&n);
     for(k=1;k<=n;k++){
         scanf("%d %d %d %d",&l,&d,&x2,&y2);
         if(d==1)
