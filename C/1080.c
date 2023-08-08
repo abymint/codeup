@@ -1,10 +1,13 @@
 #include<stdio.h>
+#include<stdbool.h>
 int main(){
-    int x,y,sum;
-    scanf("%d",&y);
-    for(x=0;sum<=y;x++){
-        sum+=x;
+    int sum=0,i=0,num;
+    scanf("%d",&num);
+    while(true){
+        i++;
+        sum+=i;
+        if(sum>=num) break;
     }
-    printf("%d",x);
+    printf("%d",i);
     return 0;
 }
