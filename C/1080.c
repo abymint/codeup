@@ -8,11 +8,6 @@ int main(){
         sum+=i;
         if(sum>=num) break;
     }
-    // while(sum<num){
-    //     i++;
-    //     sum+=i;
-    // }
     printf("%d",i);
     return 0;
 }
-
