@@ -1,7 +1,0 @@
-출력 제어 (namespace std 포함)
-    cout.precision() // 출력 자리수 지정
-    cout.setf(ios::fixed); // 소수점 자릿수 설정
-    cout.unsetf(ios::fixed) // 소수점 자릿수 설정 해제
-
-    cout.width(); // 폭 지정
-    cout.fill(""); // 폭의 빈 자리 지정 문자 채우기
